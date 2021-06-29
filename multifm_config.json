@@ -1,0 +1,25 @@
+{
+  "device" : {
+    "type" : "rtlsdr",
+    "deviceIndex": 0,
+    "dBGainLNA" : 0.0
+  },
+  "sampleRateHz" : 1411200,
+  "centerFreqHz" : 148750000,
+  "nrSampBufs" : 16,
+  "decimationFactor" : 64,
+  "channels" : [
+    {
+      "outFifo" : "./ch0.out",
+      "chanCenterFreq" : 148562500, "dBGain": 0.0
+    },
+    {
+      "outFifo" : "./ch1.out",
+      "chanCenterFreq" : 148587500, "dBGain": 0.0
+    },
+    {
+      "outFifo" : "./ch2.out",
+      "chanCenterFreq" : 148962500, "dBGain": 0.0
+    }
+  ]
+}
